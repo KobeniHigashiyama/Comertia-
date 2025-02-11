@@ -1,0 +1,7 @@
+alembic.ini
+ecommerce.db
+identifier.sqlite
+test_main.http
+.venv
+ .idea/
+ .gitignore
