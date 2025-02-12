@@ -5,3 +5,4 @@ test_main.http
 .venv
  .idea/
  .gitignore
+.env
