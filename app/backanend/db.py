@@ -5,9 +5,9 @@ from sqlalchemy.ext.asyncio import async_sessionmaker
 
 from app.backanend.config import settings
 
-# Настройки базы данных
 
-# Создание асинхронного движка
+
+
 engine = create_async_engine(settings.DATABASE_URL)
 
 # Создание фабрики асинхронных сессий

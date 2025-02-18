@@ -9,6 +9,7 @@ from app.backanend.config import settings
 from alembic import context
 from app.backanend.db import Base# noqa
 from app.models.products import Product
+from app.models.user import User
 from app.models.category import Category# noqa
 
 # this is the Alembic Config object, which provides
